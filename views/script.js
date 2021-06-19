@@ -2,7 +2,7 @@
 var params;
 var currentCustomer;
 var otherCustomers;
-var SERVER_API_POINT = 'https://bankingappdemo.herokuapp.com/';
+var SERVER_API_POINT = 'https://bankingapplicationdemo.herokuapp.com/';
 function getCustomers() {
     // Get All Custmers to show on home page
     fetch(SERVER_API_POINT+'customers')
