@@ -1,0 +1,198 @@
+body{
+    margin:0;
+    padding:0;
+    /* background-image:url("./pexels-mikhail-nilov-8297851.jpg") no-repeat center fixed; */
+    background-size:cover;
+    /* background-color: gray; */
+    /* background-color: rgb(255, 255, 255); */
+    /* color:lightslategray; */
+    color:white;
+  
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    /* border: 1px dashed red; */
+    padding:0.35rem;
+    border-radius: 10px;
+  }
+  a:hover {
+    background-color:lightgray;
+  }
+  h1 {
+    color:red;
+    font-weight: bolder;
+  }
+  nav {
+    display:flex;
+    justify-content: space-between;
+    margin:2rem;
+    padding:1rem;
+  
+  }
+  nav .logo {
+    height: 30px;
+    width: 40px;
+  }
+  nav ul { 
+    margin:0.5rem;
+    padding:0.25rem;
+    /* justify-content: right; */
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    text-decoration: none;
+  }
+  nav ul li {
+    text-decoration: none;
+    list-style: none;
+    margin:0.25rem;
+    padding:0.5rem;
+  }
+  #mainBody {
+    margin:5rem;
+    padding:3rem;
+    text-align: center;
+  }
+  
+  #details {
+    text-align: center;
+    margin: auto 15rem;
+    padding:3rem 5rem;
+  }
+  table {
+   
+    text-align: center;
+  }
+  th,td {
+    border:2px solid grey;
+    border-collapse:collapse;
+  }
+  
+  .customer {
+    text-align: center;
+    margin:auto auto;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+table {
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+td, th {
+    text-align: center;
+    border: 1px solid #000;
+}
+td {
+    padding: 5px;
+    /* border-radius: 2px; */
+}
+
+.details-container {
+    width: 600px;
+    height: 200px;
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+.welcome {
+    text-align: center;
+}
+.welcome h2,h3 {
+    color:red
+}
+#branches {
+    margin:2rem;
+    padding:1rem;
+
+}
+#branches h1 {
+    text-align: center;
+    color: white;
+}
+#boxes {
+    display:flex;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: 2rem;
+
+}
+#boxes .box {
+    border:2px solid red;
+    border-radius: 1rem;
+    margin:2rem;
+    padding:2rem;
+    text-align: center;
+}
+#boxes .box:hover {
+    background: rgb(163, 150, 150);
+    background-image: url(./singapore.jpg) no-repeat cover;
+}
+#boxes .title {
+    font-size:x-large;
+}
+.control-field {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+#why-us {
+    margin:2rem;
+    padding:2rem;
+    text-align:center;
+}
+#why-us h3 {
+    color: white;
+}
+.control-field:not(:last-child) {
+    border-bottom: thin solid #ddd5d5;
+}
+
+.control-field label {
+    font-weight: 600;
+}
+
+.control-field .value {
+    
+}
+
+.transter-container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+select {
+    width: 184px;
+}
+
+.logs-table {
+    overflow-y: auto;
+    width: 800px;
+    height: 200px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.logs-table .row {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    padding: 15px;
+}
+.logs-table .row div {
+    flex: 1;
+}
+.logs-table .row .sent {
+    color: red;
+}
+.logs-table .row .received {
+    color: green;
+}
+.logs-table .row:not(:last-child) {
+    border-bottom: thin solid #ddd5d5;
+}
